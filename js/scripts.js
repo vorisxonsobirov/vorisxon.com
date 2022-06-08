@@ -7,6 +7,14 @@
 // Scripts
 // 
 
+ var ism = prompt ("what is your name ");
+ alert ("hello " +  ism + " welcome to my website");
+ var yosh = prompt ("sizning yoshingiz");
+ if (yosh > 18) {
+     alert ("siz 18-yoshdan yuqorisiz!")
+ } else {
+    alert ("siz 18-yoshdan kichiksiz!")
+ }
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
