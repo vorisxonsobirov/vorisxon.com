@@ -8,13 +8,27 @@
 // 
 
  var ism = prompt ("what is your name ");
- alert ("hello " +  ism + " welcome to my website");
- var yosh = prompt ("sizning yoshingiz");
+alert ("name please");
+
+ var ism = prompt ("name please");
+ if (ism == "") {
+     alert("you must enter your name")
+ } 
+ var yosh = prompt ("How old are you");
  if (yosh > 18) {
-     alert ("siz 18-yoshdan yuqorisiz!")
+     alert ("You are over 18 years old!")
  } else {
-    alert ("siz 18-yoshdan kichiksiz!")
+    alert ("you are not 18 years old!")
  }
+ var email = prompt ("please enter your e-mail");
+ if (email == "") {
+    alert("please enter your e-mail")
+} else { 
+       alert ("You didn't write an email")
+     }
+ alert ("hello " +  ism + " welcome to my website");
+//  var email = prompt ("please enter your e-mail");
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
